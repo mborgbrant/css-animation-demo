@@ -138,19 +138,3 @@
 	bottom: 0;
 	right: 0;
 }
-
-@keyframes bubble {
-	0%, 97%, 100% { transform: scale(1); }
-	20% { transform: scaleY(0.95) scaleX(1.05); }
-	48% { transform: scaleY(1.1) scaleX(0.9); }
-	68% { transform: scaleY(0.98) scaleX(1.02); }
-	80% { transform: scaleY(1.02) scaleX(0.98); }
-}
-
-@keyframes bubble-scroll {
-	0% { transform: translateY(0) translateX(0); opacity: 1.0; }
-	80% { transform: translateY(-115vh) translateX(15vw); opacity: 1.0; }
-	95% { transform: translateY(-125vh) translateX(0); opacity: 0.2; }
-	98% { transform: translateY(-125vh) translateX(-15vw); opacity: 0.0; }
-	99% { transform: translateX(0) translateY(0); opacity: 0.0; }
-}
